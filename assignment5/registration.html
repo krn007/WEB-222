@@ -1,0 +1,122 @@
+<html>
+  <head>
+        <link rel="stylesheet" href="normalize1.css" />
+        <script src="registration.js"></script>
+    </head>
+<title>SIGN UP</title>
+
+<body>
+  <header>
+      <h2>MOVICAL REGISTRATION
+          </h2>
+      </header>
+      <div id="main">
+    <article>
+    <form name="Registration" action="https://httpbin.org/post" method="post">
+           
+            <h1><span class="fontsize">Movical Sign Up</span> </h1>
+        
+            <h2> Create Your Account</h2>
+            <p> Required Information</p>
+            <h3>Basic Information</h3>
+                
+            
+            <div class="information"> 
+             
+                 <label>Username <span class="color">*</span> </label> <input type="text" name="codeusename" id="username" autofocus required><br/>
+                <label>Email <span class="color">*</span> </label> <input type="email" name="codemail" id="Email" autofocus required><br/>
+                <label>Password <span class="color">*</span></label><input type="password" name="codepassword" id="password" required><br>
+                <label>Retype Password <span class="color">*</span></label><input type="password" name="coderetype" id="retype" required> <br />
+                <input type="hidden" name="lastName" id="lastName" value="Shah Karan" />
+                <input type="hidden" name="studentId" id="studentId" value="129965166" /> 
+                <label>Phone Number <span class="color">*</span></label><input type="tel" name="codephone" id="phonenumber" placeholder="999-999-9999" required><br />   
+                <label>Address <span class="color">*</span></label> <input type="text" name="codeaddress" id="address" required><br/>                                          
+                <label>City <span class="color">*</span></label><input type="text" name="codecity" id="city" required> <br/>
+                <label >Province <span class="color">*</span></label>  
+           
+                <select name="codeprovincename" id="province">
+               <optgroup label="Provinces:"> 
+               
+                   <option value="AB">Alberta</option>
+                   <option value="BC">British Columbia</option>
+                   <option value="MB">Manitoba</option>
+                   <option value="NB">New Brunswick</option>
+                   <option value="NL">New Foundland and Labrador</option>
+                   <option value="NS">Nova Scotia</option>
+                   <option selected value="ON">Ontario</option>
+                   <option value="PE">Prince Edward Island</option>
+                   <option value="QC">Quebec</option>
+                   <option value="SK">Saskatchewan</option>
+               
+                </optgroup> 
+               
+                    <optgroup label="Territores:">
+               
+                        <option value="NT">Northwest Territories</option>
+                        <option value="NU">Nunavut</option>
+                        <option value="YT">Yukon</option>
+         
+                    </optgroup> 
+                    
+                </select> <br>
+                    
+                    <label>Country <span class="color">*</span></label>
+                    
+                    <select name="codecountry" id="country" required>
+                             <option value="0"> -select-</option>
+                            <optgroup label="country">
+                                
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="ENG">England</option>
+                            <option value="FRA">France</option>
+                            <option value="GER">Germany</option>
+                        
+                       </optgroup>
+                </select>
+            </div> 
+                <div class="signup">
+                  <br><br><br><br><br> <input type="submit" name="codesubmit" value="SignUp">     
+            </div>   
+            
+        </form>
+         
+        
+    </article>
+    <nav>
+        <h2>Contents</h2>
+        <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="registration.html">Register</a></li>
+				<li><a href="catal.html">Catalogue</a></li>				
+				
+			</ul>
+    </nav>
+    <aside>
+        <h2> Tips For Password </h2>
+        Make sure you type in correct information.Use special characters in the password to make it strong
+        <h2> Note</h2>
+        A verfication email will be sent to your email address to verify your account. Please verify!
+    </aside>
+  </div>
+
+     
+           
+        
+        <footer>
+            <div class="center">
+                <h2>&copy; 2017 KARAN SHAH (129965166)</h2>
+            </div>
+
+        </footer>
+    </body> 
+
+<script>
+    var tail=document.getElementsByTagName('head')[0];
+    var b=document.createElement('link');
+    b.href="normalize1.css";
+    b.rel="stylesheet";
+    b.type="text/css";
+    tail.appendChild(b);
+    </script>
+    </html>
